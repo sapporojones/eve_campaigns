@@ -1,0 +1,15 @@
+[tool.poetry.scripts]
+eve_campaigns = 'eve_campaigns.__main__:main'# change me as needed
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "eve_campaigns"
+version = "0.0.1"
+description = "Parses data from Campaigns EVE ESI endpoint."
+readme = "README.md"
+authors = [
+  "Sapporo Jones <sapporojones@gmail.com>"
+]
