@@ -75,6 +75,7 @@ def timestamp_fixer(timestamp):
 
     ts_delta = str(t_delta)
     tss_delta = ts_delta.split(":", 2)
-    delta_string = f"{tss_delta[0]}h {tss_delta[1]}m {tss_delta[2]}s"
+    # delta_string = f"{tss_delta[0]}h {tss_delta[1]}m {tss_delta[2]}s"
+    delta_string = ts_delta
     return delta_string
 
